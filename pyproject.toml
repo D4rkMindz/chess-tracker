@@ -1,10 +1,13 @@
 [project]
-name = "cvai-homework"
+name = "chess-tracker"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
     "ipykernel>=7.4.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.5",
+    "opencv-python>=5.1.0.95",
     "pydantic-settings>=2.16.3",
 ]
