@@ -17,6 +17,28 @@ uv sync
 
 Then open a notebook in `notebooks/` with the `.venv` kernel. Run notebooks from the repository root so the relative `data/chess/...` paths resolve.
 
+## Run the pipeline
+
+Run the commands from the repository root. Each command calibrates on photo `0` (empty board) and photo `1` (start position) of one set, then prints the recognised board of every photo from `1` on.
+
+```bash
+uv run python src/main.py --set crystal
+uv run python src/main.py --set wood-large
+uv run python src/main.py --set wood-small
+```
+
+The printed board shows rank 8 at the top: `W` = white piece, `B` = black piece, `.` = empty. Photos with fewer than 80 SIFT inliers are marked `UNRELIABLE`.
+
+### Debug images
+
+Add `--show` to open one debug image per photo: the warped board with the grid, the `a1` label and one circle per recognised piece (green = white, red = black). Close the window to continue with the next photo.
+
+```bash
+uv run python src/main.py --set crystal --show
+uv run python src/main.py --set wood-large --show
+uv run python src/main.py --set wood-small --show
+```
+
 ## Question
 
 How reliably can classical computer vision recognise the board state (occupancy and piece type) from handheld top-down photos of a chess game?
