@@ -3,8 +3,6 @@
 Image grid: 8x8 array in the order of the warped board image, row 0 = top row of the image.
 Board coordinates: board[rank][file] with a1 = [0][0] (see chess_tracker.types).
 """
-from __future__ import annotations
-
 import numpy as np
 
 

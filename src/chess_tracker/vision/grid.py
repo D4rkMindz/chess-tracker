@@ -1,6 +1,4 @@
 """Step 2: find the 9 x 9 grid lines of the 64 squares on the warped board."""
-from __future__ import annotations
-
 import cv2
 import numpy as np
 

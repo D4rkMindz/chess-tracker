@@ -1,6 +1,4 @@
 """Loading the photos of a chess set."""
-from __future__ import annotations
-
 from pathlib import Path
 
 import cv2

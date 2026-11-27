@@ -1,6 +1,4 @@
 """Step 3: align a handheld photo to the empty-board photo with SIFT and a RANSAC homography."""
-from __future__ import annotations
-
 import cv2
 import numpy as np
 

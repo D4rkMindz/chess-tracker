@@ -2,8 +2,6 @@
 
 All 8x8 board arrays use the index convention board[rank][file] with a1 = [0][0], h1 = [0][7], a8 = [7][0].
 """
-from __future__ import annotations
-
 from dataclasses import dataclass
 from pathlib import Path
 

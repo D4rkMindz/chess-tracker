@@ -1,6 +1,4 @@
 """Step 1: find the board outline and warp the board to a top-down square."""
-from __future__ import annotations
-
 from typing import Callable
 
 import cv2

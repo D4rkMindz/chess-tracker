@@ -1,8 +1,6 @@
 # Main call. Calls all other methods as needed.
 # Configuration through cli arguments. (Board Type. )
 # Run from the repository root: python src/main.py --set crystal
-from __future__ import annotations
-
 import argparse
 
 from chess_tracker.config import BOARD_SETS

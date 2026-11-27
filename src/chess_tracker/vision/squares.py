@@ -3,8 +3,6 @@
 All 8x8 results here are in image-grid order (row 0 = top row of the warped board). orientation.to_board converts
 them to board coordinates.
 """
-from __future__ import annotations
-
 import cv2
 import numpy as np
 

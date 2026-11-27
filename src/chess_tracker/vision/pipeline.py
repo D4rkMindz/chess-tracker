@@ -1,6 +1,4 @@
 """Steps 1 to 6 combined: calibrate once per set, then observe every photo."""
-from __future__ import annotations
-
 from pathlib import Path
 
 import cv2
