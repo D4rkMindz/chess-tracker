@@ -12,6 +12,7 @@
 
 ## SW10
 
-| Activity                      | Duration | Involved      | 
-|-------------------------------|----------|---------------|
-| Project documentation & Setup | 2h       | BPF, SSC, NSF |
+| Activity                                    | Duration | Involved      | 
+|---------------------------------------------|----------|---------------|
+| Project documentation & Setup               | 2h       | BPF, SSC, NSF |
+| Experimentation with chessboard recognition | 2h       | BPF |
